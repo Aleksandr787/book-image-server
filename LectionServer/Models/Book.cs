@@ -6,4 +6,5 @@ public record Book
     public required Guid UserId { get; set; }
     public required string Author { get; set; }
     public required string Name { get; set; }
+    public required string ImageUrl { get; set; }
 }
